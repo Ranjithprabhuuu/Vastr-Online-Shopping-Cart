@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo">
+                <h4>VASTR</h4>
+            </div>
+            <div class="search">
+                <input type="text" name="search" class="searchbox" placeholder="Search......">
+                <img src="./images/search (2).png" alt="" width="30" height="30">
+            </div>
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <a href="detail.html">SHOP</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">CONTACT</a>        
+            </div>
+        </div>
+    
+        </nav>
+        <div class="product">
+        <div class="title">PRODUCT DETAIL</div>
+            <div class="carts">
+            <img class="cart" src="./images/shoppingcart.png" alt="" width="40">
+            <span>0</span>
+        </div>
+    </div>
+        
+    <div class="container">
+        
+        <div class="detail">
+            <div class="imag">
+                <img class="image" src="" alt="" width="500">
+            </div>
+            <div class="content">
+                <h1 class="name"></h1>
+                <div class="price"></div>
+                
+                <div class="description"></div>
+                <div class="buttons"></div>
+                    <button>Check Out</button>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="similar">
+        <div class="title">SIMILAR PRODUCT</div>
+        <div class="listProduct"></div>
+    </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="image">
+                <img src="" alt="" srcset="">
+            </div>
+            <div class="name">
+                  NAME
+            </div>
+            <div class="totalPrice">
+                Rs. 200
+            </div>
+            <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">CHECK OUT</button>
+        </div>
+    </div>
+<script>
+    let products = null;
+    // Fetch the products.json file
+    fetch('products.json')
+    .then(response => response.json())  // Added missing parentheses
+    .then(data => {
+        products = data;
+        showDetail();
+    });
+
+    function showDetail() {
+        let detail = document.querySelector('.detail');
+        let productId = new URLSearchParams(window.location.search).get('id');
+        let thisProduct = products.filter(value => value.id == productId)[0]; // Fixed filter logic
+
+        if (!thisProduct) {
+            window.location.href = "/"; // Redirect if no product is found
+        }
+
+        // Display product details
+        detail.querySelector('.image').src = thisProduct.image;
+        detail.querySelector('.name').innerText = thisProduct.name;
+        detail.querySelector('.price').innerText = "Rs " + thisProduct.price;
+        detail.querySelector('.description').innerText = thisProduct.description;
+
+        // Display similar products
+        let listProduct = document.querySelector('.listProduct'); // Corrected class name
+        products.filter(value => value.id != productId)
+        .slice(0, 6)
+            .forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = 'detail.html?id=' + product.id; // Corrected URL
+                newProduct.classList.add('item');
+                newProduct.innerHTML = `
+                    <img src="${product.image}" alt="${product.name}">
+                    <h2>${product.name}</h2>
+                    <div class="price">Rs ${product.price}</div>
+                `;
+                listProduct.appendChild(newProduct);
+            });
+    }
+</script>
+</body>
+</html>
