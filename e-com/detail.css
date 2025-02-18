@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+nav {
+    margin: 20px 20px 20px 20px;
+    
+    
+}
+.navigation {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logo {
+    background-color: orange;
+    border-radius: 500px;
+    height: 100px;
+    width:70px;
+    font-size:2em;
+    padding-left: 30px;
+    font-family: "Playpen Sans", cursive;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.searchbox {
+    margin-left: 200px;
+    width: 350px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-top-left-radius: 15px;      /* Top left corner */
+    border-top-right-radius: 0;        /* Top right corner */
+    border-bottom-left-radius: 15px;      /* Bottom left corner */
+    border-bottom-right-radius: 0; 
+    border: 3px solid black; /* Bottom right corner */
+}
+.searchbox::placeholder {
+       font-size: 1.1em;
+}
+.search img {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: orange;
+    border-top-left-radius: 0;      /* Top left corner */
+    border-top-right-radius: 15px;        /* Top right corner */
+    border-bottom-left-radius: 0;      /* Bottom left corner */
+    border-bottom-right-radius: 15px;  /* Bottom right corner */
+}
+ 
+.links a {
+    margin: 10px 10px;
+    padding:20px;
+    font-family: "Playpen Sans", cursive;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 400px 20px 150px;
+}
+.title {
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    font-size: 1.8em;
+
+}
+.cart {
+    position: relative;
+    margin-left: 300px;
+}
+.carts {
+    position: relative;
+}
+.carts span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+
+}
+
+.detail {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:500px;
+    margin: 0 100px 20px 100px;
+}
+.imag,.content {
+    padding: 100px;
+}
+.name,.price {
+    font-family: "Playpen Sans", cursive;
+    font-weight: 800;
+    font-size: 2.2em;
+
+
+}
+.description {
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+  word-spacing: 10px;
+  padding: 20px 0 20px 0;
+}
+.imag img {
+    border: 2px solid black;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button {
+    background-color: orange;
+    font-family: "Playpen Sans", cursive;
+    width:150px;
+    height:50px;
+    border-radius: 100px;
+}
+.similar {
+    margin:150px 20px 30px 30px;
+    text-decoration: none;
+  color: black;
+}
+.listProduct {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 10px;
+  text-decoration: none;
+  color: black;
+
+
+}
+.listproduct,.title {
+    padding: 50px;
+}
+.price { 
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+
+}
+.carTab {
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0 0 0 auto;
+
+}
+.cartTab h1 {
+    padding:20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab,.btn  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.cartTab,.btn button {
+    background-color: #E8BC0E;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+.cartTab,.btn,.close {
+    background-color: #eee;
+}
+.cartTab ,.listcart,.item img {
+    width: 100%;
+}
+.cartTab,.listcart,.item {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.listCart,.quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.listCart,.quantity span:nth-child(2) {
+    background-color: transparent;
+    color: #eee;
+}
+.listCart,.item:nth-child(even) {
+    background-color: #eee1;
+}

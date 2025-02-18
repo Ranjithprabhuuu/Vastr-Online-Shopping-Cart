@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playpen+Sans:wght@100..800&display=swap');
+nav {
+    margin: 20px 20px 20px 20px;
+    
+    
+}
+.navigation {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logo {
+    background-color: orange;
+    border-radius: 500px;
+    height: 100px;
+    width:70px;
+    font-size:2em;
+    padding-left: 30px;
+    font-family: "Playpen Sans", cursive;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.searchbox {
+    margin-left: 200px;
+    width: 350px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-top-left-radius: 15px;      /* Top left corner */
+    border-top-right-radius: 0;        /* Top right corner */
+    border-bottom-left-radius: 15px;      /* Bottom left corner */
+    border-bottom-right-radius: 0; 
+    border: 3px solid black; /* Bottom right corner */
+}
+.searchbox::placeholder {
+       font-size: 1.1em;
+}
+.search img {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: orange;
+    border-top-left-radius: 0;      /* Top left corner */
+    border-top-right-radius: 15px;        /* Top right corner */
+    border-bottom-left-radius: 0;      /* Bottom left corner */
+    border-bottom-right-radius: 15px;  /* Bottom right corner */
+}
+ 
+.links a {
+    margin: 10px 10px;
+    padding:20px;
+    font-family: "Playpen Sans", cursive;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+.jumpsuit,.saree,.churidar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 0 50px 0 50px;
+    
+
+
+}
+.details {
+    padding: 20px;
+}
+img {
+    padding: 20px;
+}
+h1 {
+    font-family: "Playpen Sans", cursive;
+}
+.images {
+    text-align: center;
+}
