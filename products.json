@@ -1,0 +1,256 @@
+[
+    {
+        "id":1,
+        "name":"Blue Men Shirt",
+        "price":600,
+        "image":"./images/Men/images (6).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":2,
+        "name":"White Men Shirt",
+        "price":500,
+        "image":"./images/Men/images (7).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":3,
+        "name":"Red Men Shirt",
+        "price":500,
+        "image":"./images/Men/images (9).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":4,
+        "name":"Blue Men Shirt",
+        "price":500,
+        "image":"./images/Men/images (10).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":5,
+        "name":"Blue Men Pant",
+        "price":500,
+        "image":"./images/Men/download (10).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":6,
+        "name":"Black Men Pant",
+        "price":500,
+        "image":"./images/Men/download (11).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":7,
+        "name":"Black Men Pant",
+        "price":500,
+        "image":"./images/Men/download (12).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":8,
+        "name":"Black Men Pant",
+        "price":500,
+        "image":"./images/Men/download (13).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":9,
+        "name":"Green Men Hoodi",
+        "price":500,
+        "image":"./images/Men/download (14).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":10,
+        "name":"Coffee Men Hoodi",
+        "price":500,
+        "image":"./images/Men/download (15).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":11,
+        "name":"Black Men Hoodi",
+        "price":500,
+        "image":"./images/Men/download (16).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":12,
+        "name":"Black Men Hoodi",
+        "price":500,
+        "image":"./images/Men/download (17).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":13,
+        "name":"Blue Kids Shirt",
+        "price":500,
+        "image":"./images/Kids/download (32).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":14,
+        "name":"Blue Kids Shirt",
+        "price":500,
+        "image":"./images/Kids/download (33).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+       "id":15,
+        "name":"Blue Kids Shirt",
+        "price":500,
+        "image":"./images/Kids/download (34).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":16,
+        "name":" Red Kids Shirt",
+        "price":500,
+        "image":"./images/Kids/download (35).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":17,
+        "name":"White Kids Pant",
+        "price":500,
+        "image":"./images/Kids/download (36).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":18,
+        "name":"Black Kids Pant",
+        "price":500,
+        "image":"./images/Kids/download (37).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+
+    {
+        "id":19,
+        "name":"White Kids Pant",
+        "price":500,
+        "image":"./images/Kids/download (38).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":20,
+        "name":"Blue Kids T-Shirt",
+        "price":500,
+        "image":"./images/Kids/download (39).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":21,
+        "name":"Red Kids T-Shirt",
+        "price":500,
+        "image":"./images/Kids/download (40).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":22,
+        "name":"Blue Kids Pant",
+        "price":500,
+        "image":"./images/Kids/images (11).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":23,
+        "name":"Green Kids T-Shirt",
+        "price":500,
+        "image":"./images/Kids/images (12).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":24,
+        "name":"Green Kids T-Shirt",
+        "price":500,
+        "image":"./images/Kids/images (13).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":25,
+        "name":"Blue Women Jumpsuit",
+        "price":500,
+        "image":"./images/Women/download (18).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":26,
+        "name":"White Women Jumpsuit",
+        "price":500,
+        "image":"./images/Women/download (19).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":27,
+        "name":"Blue Women Jumpsuit",
+        "price":500,
+        "image":"./images/Women/download (20).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":28,
+        "name":"Blue Saree",
+        "price":500,
+        "image":"./images/Women/download (21).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":29,
+        "name":"Green Saree",
+        "price":500,
+        "image":"./images/Women/download (23).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":30,
+        "name":"Green Saree",
+        "price":500,
+        "image":"./images/Women/download (24).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":31,
+        "name":"Red Saree",
+        "price":500,
+        "image":"./images/Women/download (25).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":32,
+        "name":"Black Churidar",
+        "price":500,
+        "image":"./images/Women/download (26).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":33,
+        "name":"Green Churidar",
+        "price":500,
+        "image":"./images/Women/download (28).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":34,
+        "name":"Red Churidar",
+        "price":500,
+        "image":"./images/Women/download (29).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":35,
+        "name":"Black Churidar",
+        "price":500,
+        "image":"./images/Women/download (30).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    },
+    {
+        "id":36,
+        "name":"Black Churidar",
+        "price":500,
+        "image":"./images/Women/download (31).jpeg",
+        "description":"This stylish blue men's shirt combines a classic design with modern flair. Tailored for both comfort and sophistication, it's crafted from premium cotton, ensuring breathability and a soft touch.⭐⭐⭐⭐⭐ (4.8/5)"
+    }
+
+]
